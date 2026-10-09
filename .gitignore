@@ -1,0 +1,16 @@
+/build/
+**/build/
+*.jks
+*.keystore
+*.pass
+local.properties
+/.coverage
+.coverage.*
+coverage.xml
+.gradle/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.idea/
+.DS_Store

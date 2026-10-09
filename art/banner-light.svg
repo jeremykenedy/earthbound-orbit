@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 800 200">
+  <title id="title">Earthbound Orbit</title>
+  <desc id="desc">A moving Earth from orbit. No ads, tracking, or analytics.</desc>
+  <defs>
+    <linearGradient id="space" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#f8fbff"/></linearGradient>
+    <radialGradient id="ocean" cx="36%" cy="29%"><stop stop-color="#4eace0"/><stop offset=".62" stop-color="#17699e"/><stop offset="1" stop-color="#052a50"/></radialGradient>
+    <clipPath id="globe"><circle cx="622" cy="100" r="78"/></clipPath>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <rect x=".5" y=".5" width="799" height="199" rx="16" fill="url(#space)" stroke="#e5e7eb"/>
+  <g fill="#55718b" opacity=".58"><circle cx="424" cy="47" r="1.2"/><circle cx="482" cy="148" r="1"/><circle cx="548" cy="28" r=".9"/><circle cx="728" cy="44" r="1.1"/><circle cx="756" cy="144" r="1.2"/><circle cx="435" cy="119" r=".8"/><circle cx="689" cy="169" r=".8"/></g>
+  <circle cx="622" cy="100" r="82" fill="#2499e7" opacity=".3" filter="url(#glow)"/>
+  <g clip-path="url(#globe)">
+    <circle cx="622" cy="100" r="78" fill="url(#ocean)"/>
+    <path d="M548 65l18-20 18 3 11 12-5 12-20 6-8 22-15-7-8-17zM607 100l18-8 19 6 8 20-14 12-8 31-17 4-11-24 5-19-13-11zM659 59l19 2 13 13-15 9-17-8zM570 113l17 1 10 14-11 18-12-13z" fill="#87b96d"/>
+    <path d="M544 75l15-24 18-4-10 15-13 8zM626 109l14-8 18 8-10 9z" fill="#eef5f6" opacity=".65"/>
+    <path d="M544 100h156M622 22c-26 24-26 132 0 156M622 22c26 24 26 132 0 156M551 68c40 17 102 17 142 0M551 132c40-17 102-17 142 0" fill="none" stroke="#8ecdf2" stroke-opacity=".36" stroke-width="1"/>
+  </g>
+  <circle cx="622" cy="100" r="78" fill="none" stroke="#328bc0" stroke-width="2"/>
+  <text x="42" y="82" fill="#0f172a" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="40" font-weight="700" letter-spacing="-.5">Earthbound Orbit</text>
+  <text x="44" y="110" fill="#64748b" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="14">A living view of Earth from space</text>
+  <g font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10" font-weight="500" text-anchor="middle" stroke-width=".8">
+    <rect x="42" y="128" width="78" height="22" rx="11" fill="#eff6ff" stroke="#93c5fd"/><text x="81" y="142" fill="#1e40af" stroke="none">Animated</text>
+    <rect x="127" y="128" width="112" height="22" rx="11" fill="#f5f3ff" stroke="#c4b5fd"/><text x="183" y="142" fill="#6d28d9" stroke="none">OpenGL ES 2.0</text>
+    <rect x="246" y="128" width="72" height="22" rx="11" fill="#f0fdf4" stroke="#86efac"/><text x="282" y="142" fill="#166534" stroke="none">No ads</text>
+    <rect x="325" y="128" width="174" height="22" rx="11" fill="#fffbeb" stroke="#fcd34d"/><text x="412" y="142" fill="#b45309" stroke="none">No tracking or analytics</text>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+name: Device test report
+description: Report a screensaver test on a physical TV.
+title: "Device test: "
+labels: [device-test]
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Device model
+      placeholder: Manufacturer and model
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: OS and API version
+    validations:
+      required: true
+  - type: input
+    id: resolution
+    attributes:
+      label: Display resolution
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Tests and results
+      description: Include installation, selection, idle activation, settings, update, uninstall, and sleep/wake observations.
+    validations:
+      required: true
